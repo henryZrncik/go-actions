@@ -24,6 +24,7 @@ func TestT1(t *testing.T) {
 		fmt.Println("do you feel it")
 		t.Error("container didn't start")
 	}
+	t.Error("container didn't start")
 	log.Println("docker compose networka created")
 
 	tc.Down()
